@@ -5,8 +5,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   width: 100%;
-  padding: 20px 30px;
-  position: fixed;
+  padding: 20px;
   border: 1px solid black;
 }
 
@@ -32,5 +31,38 @@ margin: 0 50px;
 #header-title {
   margin: 0 10px;
   color: MediumAquamarine;
+}
 
+.main {
+  display: inline-flex;
+  padding-top: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.blog-ad {
+  width:100%;
+}
+
+.blog-ad, .stories, .story, .news-bites, .cancelled-image {
+  border: 1px solid black;
 }
