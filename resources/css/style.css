@@ -63,6 +63,26 @@ margin: 0 50px;
   width:100%;
 }
 
-.blog-ad, .stories, .story, .news-bites, .cancelled-image {
+.blog-ad, .stories, .story, .news-bites, .lead-image {
   border: 1px solid black;
+}
+
+.image-content {
+  height: 300px;
+  display: flex;
+}
+
+.lead-story .image-content {
+  background-image: url(../images/img-story-main.png);
+}
+
+.image-content p {
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+#lead-title {
+  font-size: 40px;
 }
