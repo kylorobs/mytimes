@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px 30px;
+  position: fixed;
+  border: 1px solid black;
+}
+
+nav {
+  display: inline-flex;
+margin: 0 50px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.main-headings {
+  color: black;
+  padding: 10px;
+
+}
+
+#header-title {
+  margin: 0 10px;
+  color: MediumAquamarine;
+
+}
