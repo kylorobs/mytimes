@@ -132,3 +132,48 @@ text-align: center;
   padding: 10px;
   border-bottom: 1px solid black;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 150px;
+}
+
+#footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding: 0 20px;
+}
+
+.footer-text {
+  padding: 40px;
+  margin: 30px;
+  color: black;
+}
+
+.nav-footer a {
+  color: black;
+}
+
+.nav-footer {
+  display: block;
+}
+
+.nav-footer span {
+  padding: 10px 20px;
+}
+
+
+.copyright {
+  display: block;
+  margin-top: 10px;
+}
