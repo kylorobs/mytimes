@@ -100,8 +100,11 @@ margin: 0 50px;
   font-weight: bold;
 }
 
-
-
 #lead-title {
   font-size: 40px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
 }
