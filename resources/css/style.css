@@ -73,6 +73,12 @@ margin: 0 50px;
 }
 
 .lead-story .image-content {
+  display: flex;
+  background-image: url(../images/img-story-main.png);
+}
+
+.story .image-content {
+  display: flex;
   background-image: url(../images/img-story-main.png);
 }
 
